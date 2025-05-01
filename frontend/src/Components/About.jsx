@@ -1,4 +1,4 @@
-import AIayurveda from "../Assets/aiayurimg.jpg";
+import AIayurveda from "../Assets/AyurImage.png";
 import SolutionStep from "./SolutionStep";
 import "../Styles/About.css";
 
@@ -14,7 +14,7 @@ function About() {
         </h3>
         <p className="about-description">
           {
-            "Welcome to AyurInsights, where ancient Ayurvedic wisdom meets cutting-edge technology. We are on a mission to empower individuals with deep, personalized insights into their health, wellness, and inner constitution. AyurInsights was born from a powerful idea: What if we could merge the timeless principles of Ayurveda with the accuracy and adaptability of modern machine learning? Through this fusion, we aim to help people reconnect with their natural balance and make informed lifestyle choices rooted in tradition and powered by innovation."
+            "Welcome to AyurBuddy, where ancient Ayurvedic wisdom meets cutting-edge technology. We are on a mission to empower individuals with deep, personalized insights into their health, wellness, and inner constitution. AyurBuddy was born from a powerful idea: What if we could merge the timeless principles of Ayurveda with the accuracy and adaptability of modern machine learning? Through this fusion, we aim to help people reconnect with their natural balance and make informed lifestyle choices rooted in tradition and powered by innovation."
           }
         </p>
         <h4 className="about-text-title">Your Solutions</h4>

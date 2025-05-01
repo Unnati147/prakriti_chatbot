@@ -1,5 +1,5 @@
 import "../Styles/Footer.css";
-import Logo from "../Assets/Logo.png";
+import Logo from "../Assets/logo (2).png";
 import { FaGithub } from "react-icons/fa";
 
 function Footer() {
@@ -23,7 +23,7 @@ function Footer() {
         </div>
 
         <div className="ft-copyright">
-          <p>© 2024-2025 Ayurlnsights. All rights reserved.</p>
+          <p>© 2024-2025 AyurBuddy. All rights reserved.</p>
         </div>
         <div className="ft-developlist flex flex-row justify-center items-center gap-1">
           Developed by Unnati Mittal {" "}

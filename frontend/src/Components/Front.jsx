@@ -1,4 +1,4 @@
-import BodyImg from "../Assets/mainimg1.jpg";
+import BodyImg from "../Assets/MainImage.jpeg";
 import { FaRobot, FaWindowClose } from "react-icons/fa";
 import "../Styles/Front.css";
 import { useContext } from "react";

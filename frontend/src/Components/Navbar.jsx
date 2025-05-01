@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Navbar.css";
-import Logo from "../Assets/Logo.png";
+import Logo from "../Assets/logo (2).png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -15,7 +15,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <a href="#">
-          <img src={Logo} width={200} alt="Website's Logo" />
+          <img src={Logo} width={200} height={40} alt="Website's Logo" />
         </a>
       </h1>
 
