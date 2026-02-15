@@ -9,6 +9,7 @@ import { MemoizedDownload } from "./DownloadButton";
 import { SimpleMessage } from "./SimpleMessage";
 import { QuestionMessage } from "./QuestionMessage";
 import ShareButtonMemoized from "./ShareButton";
+import VoiceComponent from "./VoiceComponent";
 
 const ChatMessage = ({ message }) => {
   const [selected, setSelected] = useState(false);
@@ -40,8 +41,13 @@ const ChatMessage = ({ message }) => {
       </SimpleMessage>
     );
   } else if (typeof message === "string") {
-    return <SimpleMessage>{parse(message)}</SimpleMessage>;
-  } else if (typeof message === "object") {
+  return (
+    <SimpleMessage>
+      {parse(message)}
+      <VoiceComponent messageText={message} />
+    </SimpleMessage>
+  );
+} else if (typeof message === "object") {
     const len = Object.keys(message["options"]).length;
     if (len === 2) {
       return (
@@ -50,6 +56,7 @@ const ChatMessage = ({ message }) => {
             <div className="bg-gray-200 p-2 w-full  rounded-lg font-lora">
               {message["question"]}
             </div>
+            <VoiceComponent messageText={message["question"]} />
             <div className="w-full pt-1 flex gap-1">
               {Object.keys(message?.options).map((objkey, index) => {
                 return (
@@ -112,6 +119,8 @@ const ChatMessage = ({ message }) => {
                 )}
                 <Tooltip id="description-tooltip" place="top" variant="dark" />
               </div>
+              <VoiceComponent messageText={message["question"]} />
+
               <div
                 className={`w-full pt-2 flex flex-col flex-wrap gap-2 items-center ${
                   selected && "hidden"
@@ -133,7 +142,7 @@ const ChatMessage = ({ message }) => {
                       data-value={String(message?.options[objkey])}
                     >
                       {String(message?.options[objkey])}
-                    </button>
+                    </button> 
                   );
                 })}
               </div>

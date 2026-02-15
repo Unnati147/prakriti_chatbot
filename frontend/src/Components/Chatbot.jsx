@@ -32,7 +32,7 @@ const Chatbot = ({ open, set }) => {
   }, [queries]);
 
   useEffect(() => {
-    const ws = new WebSocket(`${ChatAPI}/chat`);
+     const ws = new WebSocket('ws://127.0.0.1:8000/chat');
     ws.onerror = () => {
       setError(true);
     };
