@@ -1,6 +1,6 @@
 # Prakriti Chatbot 🌿
 
-This AI-based chatbot determines a user's Ayurvedic Prakriti (Vata, Pitta, Kapha) using a set of questions. It provides personalized health tips based on Ayurvedic principles.
+This AI-based chatbot (AyurBuddy) determines a user's Ayurvedic Prakriti (Vata, Pitta, Kapha) using a set of questions. It provides personalized health tips based on Ayurvedic principles.
 
 ## Features
 - Prakriti detection
