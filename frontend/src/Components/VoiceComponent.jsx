@@ -56,7 +56,7 @@ useEffect(() => {
       <button 
         className={`voice-btn ${isSpeaking ? 'speaking' : ''}`}
         onClick={toggleSpeech}
-        title="🔊 सुनें प्रश्न"
+        title="🔊 Listen"
       >
         {isSpeaking ? '⏹️' : '🔊'}
       </button>
