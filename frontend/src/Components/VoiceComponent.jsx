@@ -56,12 +56,12 @@ useEffect(() => {
       <button 
         className={`voice-btn ${isSpeaking ? 'speaking' : ''}`}
         onClick={toggleSpeech}
-        title="🔊 Listen"
+        title="🔊 Listen here"
       >
         {isSpeaking ? '⏹️' : '🔊'}
       </button>
       {isSpeaking && (
-        <span className="speaking-indicator bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs">
+        <span className="speaking-indicator bg-green-100 text-green-800 px-2 py-1 rounded-full text-xs">
           Speaking...
         </span>
       )}
