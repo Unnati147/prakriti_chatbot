@@ -62,7 +62,7 @@ useEffect(() => {
       </button>
       {isSpeaking && (
         <span className="speaking-indicator bg-orange-100 text-orange-800 px-2 py-1 rounded-full text-xs">
-          Speaking
+          Speaking...
         </span>
       )}
     </div>
