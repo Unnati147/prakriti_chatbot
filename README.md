@@ -1,4 +1,7 @@
-# Prakriti Chatbot 🌿
+# Project ID : BCS -851
+# Prakriti Chatbot  🌿
+Group Id- PCS26-42
+
 
 This AI-based chatbot (AyurBuddy) determines a user's Ayurvedic Prakriti (Vata, Pitta, Kapha) using a set of questions. It provides personalized health tips based on Ayurvedic principles.
 
